@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Chess Persona</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo.png" alt="">
+                <p class="nav_title">Chess Persona</p>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#solution" class="nav__link">Solution Architecture</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">Game Features</a>
+                    </li>
+                    
+                   
+                    <li class="nav__item">
+                        <a href="#ml" class="nav__link">Machine Learning</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+              <img src="assets/img/new_about.jpg" alt="ChessPersona: Chess Style Analysis" class="home__img">
+        
+              <div class="home__data">
+                <h1 class="home__title">ChessPersona: Analyze Your Chess Playing Style</h1>
+                <p class="home__description">Discover the Art of Chess Play Styles Through Advanced Analysis</p>
+                
+                </a>
+              </div>
+            </div>
+          </section>
+
+        <!-- About -->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/img/about.jpeg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Introduction <br>
+                    </h2>
+
+                    <p class="about__description">
+                        ChessPersona is an innovative platform designed to unravel the complex fabric of chess playing styles through the lens of advanced data analysis. We aim to bridge the gap between raw game data and actionable insights, empowering players, coaches, and chess enthusiasts to understand and refine their strategic approach to the game.</p>
+                </div>
+            </div>
+        </section>
+    <!-- Architecture -->
+    <section class="archi section container" id="architecture">
+        <h2 class="section__title-center">
+            Solution Architecture <br>
+        </h2>
+        <div class="archi_container grid">
+            <article class="archi_card">
+                
+                <center><img src="assets/img/highlevel.png" alt="" class="archi_img"></center>
+                
+            </article>
+            <br>
+            <br>
+            
+            <article class="archi_card">
+                <h3 class="archi_title">Tech Stack(Proposed)</h3><br>
+                <center><img src="assets/img/techstack.png" alt="" class="archi_img"></center>
+                
+            </article>
+        </div>
+    </section>
+
+<!-- Features -->
+
+        <section class="features section container" id="features">
+            <div class="features__bg">
+                <h2 class="section__title-center">
+                    Feature Extraction <br>
+                </h2>
+
+                <div class="features__container grid">
+                    <div class="features__card">
+                        <h3 class="features__card-title">Center Control Score</h3>
+                        <img src="assets/img/center_control.png" alt="Center Control Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Measures control over key central squares.
+                        </p>
+                    </div>
+
+                    <div class="features__card">
+                        <h3 class="features__card-title">Piece Activity Score</h3>
+                        <img src="assets/img/piece_activity.png" alt="Piece Activity Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Assesses the mobility and activity of pieces throughout the game.
+                        </p>
+                    </div>
+
+                    <div class="features__card">
+                        <h3 class="features__card-title">King Safety Score</h3>
+                        <img src="assets/img/king_safety.png" alt="King Safety Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Evaluates the safety of the king based on surrounding pieces and pawn structure.
+                        </p>
+                    </div>
+
+                    <div class="features__card">
+                        <h3 class="features__card-title">Attacking Moves Score</h3>
+                        <img src="assets/img/attacking_moves.png" alt="Attacking Moves Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Quantifies the aggressiveness of play.
+                        </p>
+                    </div>
+
+                    <div class="features__card">
+                        <h3 class="features__card-title">Captures Score</h3>
+                        <img src="assets/img/captures.gif" alt="Captures Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Tracks the number of captures made by a player, indicating tactical sharpness.
+                        </p>
+                    </div>
+
+                    <div class="features__card">
+                        <h3 class="features__card-title">Pawn Structure Stability Score</h3>
+                        <img src="assets/img/pawn_structure.png" alt="Pawn Structure Stability Score" class="features__card-img">
+                        <p class="features__card-description">
+                            Analyzes the stability and weakness in the pawn structure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Machine Learning Section -->
+<section class="ml section container" id="ml">
+    <h2 class="section__title-center">
+        Machine Learning <br>
+    </h2>
+    <p class="features__card-description">
+        The ChessPersona application uses machine learning to analyze chess playing styles. It provides insights by training on a dataset of games played by grandmasters and categorizing play styles based on extracted features. This process helps in understanding the tactical and strategic nuances that differentiate players.
+    </p>
+    <div class="features__container grid"> <!-- Use features container styles -->
+        
+        <div class="features__card">
+            <h3 class="features__card-title">K-means Clustering</h3>
+            <img src="assets/img/kmeans.png" alt="Pawn Structure Stability Score" class="features__card-img-ml">
+            <p class="features__card-description">
+                A popular clustering method that groups data based on feature similarity.
+            </p>
+        </div>
+        <div class="features__card">
+            <h3 class="features__card-title">DBSCAN</h3>
+            <img src="assets/img/dbscan.png" alt="Pawn Structure Stability Score" class="features__card-img">
+            <p class="features__card-description">
+                Useful for identifying clusters of arbitrary shape and for handling noise and outliers.
+            </p>
+        </div>
+    </div>
+</section>
+
+       
+
+
+       
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <!-- <div class="footer__container container grid">
+            <div class="footer__content"><center>
+                <a href="https://www.ce.pdn.ac.lk/"><h3 class="footer__title"><i class="ri-link"></i> Department of Computer Engineering</h3></a>
+            </center></div>
+            <div class="footer__content"><center>
+                <a href="https://eng.pdn.ac.lk/"><h3 class="footer__title"><i class="ri-link"></i> Faculty of Engineering</h3></a>
+            </center></div>
+            <div class="footer__content"><center>
+                <a href="https://github.com/cepdnaclk/e19-3yp-beehive-monitoring-system/tree/main"><h3 class="footer__title"><i class="ri-link"></i> Project Repository</h3></a>
+            </center></div>
+        </div> -->
+        <p class="footer__copy">&#169; ChessPersona. All rights reserved</p>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!-- Main.js -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
