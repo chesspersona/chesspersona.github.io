@@ -162,6 +162,10 @@ body.dark-theme {
   box-shadow: 0 1px 4px rgba(10, 11, 10, 0.3);
 }
 
+.dark-theme .nav_title{
+  color: #ffffff;
+}
+
 /* CSS CLASSES */
 .section {
   padding: 5.5rem 0 1rem;
